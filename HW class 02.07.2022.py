@@ -118,6 +118,13 @@ reviewer_2.rate_hw(student_2, 'Python', 5)
 reviewer_2.rate_hw(student_2, 'Python', 5)
 reviewer_2.rate_hw(student_2, 'Python', 5)
 
+student_list = [student_1, student_2]
+lecturer_list = [lecturer_1, lecturer_2]
+
+print(student_list, 'Python')
+print(student_1 > student_2)
+print(lecturer_1 < lecturer_2)
+
 
 print(f'Оценки студента 1 по Python:', student_1.grades)
 print(f'Оценки лектора 1 по Python:', lecturer_1.scores)
